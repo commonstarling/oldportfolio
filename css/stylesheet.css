@@ -1,0 +1,111 @@
+body {
+  /* typography declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align: center;
+ }
+.masthead {
+	padding: 6em 0;
+  background-image: url('https://images.unsplash.com/reserve/zU6fwmDaSVWZdCXcZfot_IMG_3838.JPG?q=80&fm=jpg&s=69408faeebd8ccbeffcc2c7017b9f480');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+.masthead-intro {
+  /* Layout Declarations */
+	margin-bottom: 0.1 em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 3em;
+  text-align: right;
+  padding-right: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px #D6580C;
+}
+.masthead-heading {
+  /* Layout Declarations */
+	margin-top: -0.2em;
+  margin-bottom: -0.5em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px #D6580C;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+.social > li {
+  display: inline-block;
+  padding: 15px
+}
+.content-footer > p {
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", "Georgia", serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #717528;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+section > h1 {
+  margin-top: 2em;
+}
+footer {
+  background-color: #A7D4F2;
+  padding: 1em 0;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: #D6580C;
+}
+a:hover {
+  color: #F1CE1F;
+}
+footer > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-shadow: .25px .25px .25px #000;
+ }
+@media only screen and (max-width: 768px) {
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .social {
+    font-size: .25em;
+  }
+}
