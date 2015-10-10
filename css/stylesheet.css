@@ -45,17 +45,16 @@ body {
   text-shadow: 1px 1px 1px #D6580C;
 }
 nav {
-  border: 3px solid #222510;
+  border: 3px solid #da5608;
   border-radius: 20px;
-  background-color: #222510; 
+  background-color: #da5608; 
 }
 .pages > li {
   display: inline-block;
   padding: 15px -20px;
   margin: 0 50px;
   color: white;
-  text-shadow: 1px 1px 1px #F0CE1C;
-
+  text-shadow: 1px 1px 1px black;
 }
 .introduction-section,
 .location-section,
@@ -102,7 +101,7 @@ footer {
 }
 a {
   text-decoration: none;
-  color: #D6580C;
+  color: #F07A0E;
 }
 a:hover {
   color: #F1CE1F;
