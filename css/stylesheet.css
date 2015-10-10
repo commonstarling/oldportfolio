@@ -7,7 +7,8 @@ body {
 .masthead-intro,
 .masthead-heading,
 .content-footer,
-.pages {
+.pages,
+.portfolio {
   text-align: center;
  }
 .masthead {
@@ -48,6 +49,9 @@ nav {
   border: 3px solid #da5608;
   border-radius: 20px;
   background-color: #da5608; 
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  color: white;
 }
 .pages > li {
   display: inline-block;
@@ -121,9 +125,6 @@ footer > ul {
   .social {
     font-size: .25em;
   }
-}
-.portfolio {
-  text-align: center;
 }
 .portfolio-pics {
   border: 2px solid black;
