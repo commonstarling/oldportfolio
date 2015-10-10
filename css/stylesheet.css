@@ -122,3 +122,11 @@ footer > ul {
     font-size: .25em;
   }
 }
+.portfolio {
+  text-align: center;
+}
+.portfolio-pics {
+  border: 2px solid black;
+  width: 30%;
+  height: auto;
+}
