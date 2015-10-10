@@ -4,10 +4,10 @@ body {
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 .masthead-intro,
 .masthead-heading,
-.content-footer {
+.content-footer,
+.pages {
   text-align: center;
  }
 .masthead {
@@ -44,6 +44,19 @@ body {
   color: white;
   text-shadow: 1px 1px 1px #D6580C;
 }
+nav {
+  border: 3px solid #222510;
+  border-radius: 20px;
+  background-color: #222510; 
+}
+.pages > li {
+  display: inline-block;
+  padding: 15px -20px;
+  margin: 0 50px;
+  color: white;
+  text-shadow: 1px 1px 1px #F0CE1C;
+
+}
 .introduction-section,
 .location-section,
 .questions-section {
@@ -56,7 +69,8 @@ body {
 }
 .social > li {
   display: inline-block;
-  padding: 15px
+  padding: 15px;
+  text-shadow: 1px 1px 1px #F0CE1C;
 }
 .content-footer > p {
   color: white;
