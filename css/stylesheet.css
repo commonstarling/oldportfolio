@@ -113,17 +113,16 @@ footer {
   color: #F07A0E;
 }
 .content-footer > .social > li > a,
-.content-footer > p > a,
-.blog-page > a {
+.content-footer > p > a {
   text-decoration: none;
   color: #a9d4f3;
 }
 .introduction-section > p > a:hover,
 .location-section > p > a:hover,
 .questions-section > p > a:hover,
-.content-footer > .social > li > a:hover,
-.portfolio > p > a:hover
-.blog-page > a:hover {
+.content-footer > .social > li > a:hover, 
+.content-footer > p > a:hover,
+.portfolio > p > a:hover {
   color: #F0ce1c;
 }
 footer > ul {
